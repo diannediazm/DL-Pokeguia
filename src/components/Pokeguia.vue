@@ -61,7 +61,7 @@ export default {
 .background {
     background-image: url('../assets/images/background.jpg');
     background-size: cover;
-    height: 1000px;
+    background-attachment: fixed;  
 }
 .pokeheader {
   width: 500px;
@@ -81,6 +81,7 @@ form {
 }
 .resultado {
     text-align: center;
+    padding-bottom: 50px;
 }
 li {
     list-style: none;
